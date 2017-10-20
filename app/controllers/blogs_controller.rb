@@ -75,6 +75,5 @@ class BlogsController < ApplicationController
     def blog_params
       params.require(:blog)
     end
-
-    
+ 
 end
