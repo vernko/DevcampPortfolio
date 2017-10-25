@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/vernko/kofford_view_tool
+  revision: f53efac9e4ba2a8b0f2257e0b4dcb45253b54229
+  specs:
+    kofford_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +197,7 @@ DEPENDENCIES
   friendly_id (~> 5.2, >= 5.2.3)
   jbuilder (~> 2.5)
   jquery-rails (~> 4.3, >= 4.3.1)
+  kofford_view_tool!
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
   puma (~> 3.7)
@@ -204,4 +211,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.0.pre.3
