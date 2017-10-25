@@ -9,14 +9,11 @@ module ApplicationHelper
     	end
 	end
 
-	def source_generator(layout_name)
-		if session[:source]
-			greeting = "Thanks for visiting me from #{session[:source]} and you are on the #{layout_name} layout"
-			content_tag(:p, greeting, class: "source-greeting")
-		end
-	end
 
-	def copyright_generator
-		KoffordViewTool::Renderer.copyright 'Vern Kofford', 'All rights reserved'
-	end
+
+  def copyright_generator
+  	KoffordViewTool::Renderer.copyright 'Vern Kofford', 'All rights reserved'
+  end
+
+
 end
