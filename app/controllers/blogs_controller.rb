@@ -7,6 +7,7 @@ class BlogsController < ApplicationController
   # GET /blogs.json
   def index
     @blogs = Blog.all
+    @blogs = Blog.page(params[:page]).per(5)
     @page_title = "My portfolio Blog"
   end
 
@@ -33,7 +34,7 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if
-n        format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
+        format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
       else
         format.html { render :new }
       end
