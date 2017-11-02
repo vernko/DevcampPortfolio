@@ -33,7 +33,7 @@ class BlogsController < ApplicationController
     @blog = Blog.new(blog_params)
 
     respond_to do |format|
-      if
+      if @blog.save
         format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
       else
         format.html { render :new }
@@ -79,7 +79,7 @@ class BlogsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_params
-      params.require(:blog)
+      params.require(:blog).permit(:title, :body)
     end
  
 end

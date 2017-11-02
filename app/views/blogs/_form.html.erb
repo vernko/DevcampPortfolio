@@ -1,21 +1,21 @@
-<%= form_with(model: blog, local: true) do |form| %>
+<%= form_with(model: blog, local: true) do |f| %>
   <% if blog.errors.any? %>
-      <%= blog.errors.full_messages.each do |error| %>
-        <%= js add_gritter(flash[:notice], title: "Vern Kofford Portfolio") sticky: false)%>
+      <% blog.errors.full_messages.each do |error| %>
+        <%= alert_generator error %>
     <% end %>
   <% end %>
 
   <div class="form-group">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :blog_title, class: 'form-control', placeholder:'Title' %>
+    <%= f.label :title %>
+    <%= f.text_field :title, id: :blog_title, class: 'form-control', placeholder:'Title' %>
   </div>
 
   <div class="form-group">
-    <%= form.label :body %>
-    <%= form.text_area :body, class: 'form-control', rows: 15, placeholder: 'Content' %>
+    <%= f.label :body %>
+    <%= f.text_area :body, class: 'form-control', rows: 15, placeholder: 'Content' %>
   </div>
 
   <div class="form-group">
-    <%= form.submit "Submit", class: 'btn btn-primary' %>
+    <%= f.submit "Submit", class: 'btn btn-primary' %>
   </div>
 <% end %>
