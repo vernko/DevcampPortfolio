@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "jquery-ui";
+@import "gritter";
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
@@ -70,9 +71,21 @@ footer p {
 
 .navbar-brand {
   color: white;
+  & a {
+    color: white;
+  }
+  &:hover {
+    color: #ccc;
+  }
+
 }
 
 /* Custom Styles*/
 .portfolio-item {
   padding: 20px;
 }
+
+.portfolio-container {
+  padding-top: 30px;
+}
+
