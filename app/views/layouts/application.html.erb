@@ -6,6 +6,8 @@
 
     <meta name="keywords" content=<%= @seo_keywords %> />
 
+    <%= favicon_link_tag 'favicons/rockstar.png' %>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
@@ -19,11 +21,11 @@
         <div class="cover-container">
 
           <%= video_tag(
-            'HardDrivePhotojpeg.mp4',
+            'sun_movement.mp4',
             id: 'background',
             autoplay: true,
             muted: true,
-            poster: 'home_bg.png'
+            poster: ''
             )
             %>
 
@@ -34,8 +36,6 @@
           <%= render "shared/application_footer" %>
 
           <%= alerts %>
-
-          <% source_helper("application") %>
           
         </div>
       </div>
