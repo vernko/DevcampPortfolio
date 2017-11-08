@@ -5,23 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Provide an edit portfolio main & thumb image
 
-* System dependencies
+* Update Technology remove fields 
 
-* Configuration
+* Update Edit forms
 
-* Database creation
+* Create navbar for blogs and portfolios pages
 
-* Database initialization
+* Refactor About Me page
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # DevcampPortfolio
 
 Got it working
