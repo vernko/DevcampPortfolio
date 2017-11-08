@@ -2,7 +2,7 @@
 
   <h2><%= @blog.title %></h2>
 
-  <nav class="breadcrumb blog-menu">
+  <nav class="breadcrumb blogcrumb">
     <%= link_to "Home", root_path, class: 'breadcrumb-item' %>
     <%= link_to @blog.topic.title, topic_path(@blog.topic), class: 'breadcrumb-item' %>
 
