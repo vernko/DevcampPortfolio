@@ -15,7 +15,7 @@ Things you may want to cover:
 
 * Refactor About Me page
 
-* Update "Gravatr/Bootstrap" Menu on Edit Blog
+* Provide links on Blog page to different social media
 
 # DevcampPortfolio
 
