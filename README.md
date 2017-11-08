@@ -17,6 +17,8 @@ Things you may want to cover:
 
 * Provide links on Blog page to different social media
 
+* Refactor gravatar menu edit on blog pages
+
 # DevcampPortfolio
 
 Got it working
