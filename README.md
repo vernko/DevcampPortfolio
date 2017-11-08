@@ -15,6 +15,8 @@ Things you may want to cover:
 
 * Refactor About Me page
 
+* Update "Gravatr/Bootstrap" Menu on Edit Blog
+
 # DevcampPortfolio
 
 Got it working
