@@ -19,6 +19,12 @@ Things you may want to cover:
 
 * Refactor gravatar menu edit on blog pages
 
+* Create a new portfolio link on portfolio show page
+
+* When clicking on upload images, have it show the image uploaded
+
+* Make the notifications for editing/creating/deleting clickable to remove
+
 # DevcampPortfolio
 
 Got it working
