@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import "jquery-ui";
 @import "gritter";
+@import "font-awesome";
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
@@ -87,14 +88,6 @@ footer p {
   &:hover {
     color: #ccc;
   }
-
-}
-
-.navbar-toggle-icon .icon-bar {
-   display: block;
-   width: 22px;
-   height: 2px;
-   border-radius: 1px;
 }
 
 /* Custom Styles*/
