@@ -11,7 +11,8 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def tech_news
-  	@tweets = SocialTool.twitter_search
-  end
+# Commented out since I'm not sure I want to use this anymore in my portfolio
+  # def tech_news
+  # 	@tweets = SocialTool.twitter_search
+  # end
 end
