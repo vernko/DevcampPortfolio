@@ -241,8 +241,31 @@ h6, .h6, {
 .app-card-container {
   color: black;
   text-align: left;
+  background-color: white;
 }
 
 .app-card-container > .card {
   padding: 40px;
+}
+
+.contact-me {
+  a {
+    background-color: #e6e6e6;
+  }
+
+  & :hover {
+    color: black;
+    background-color: white;
+  }
+}
+
+.about-me {
+  a {
+    background-color: #e6e6e6;
+  }
+
+  & :hover {
+    color: black;
+    background-color: white;
+  }
 }
