@@ -252,7 +252,8 @@ h6, .h6, {
 
 .contact-me {
   a {
-    background-color: #e6e6e6;
+    color: white;
+    background-color: transparent;
   }
 
   & :hover {
@@ -261,9 +262,10 @@ h6, .h6, {
   }
 }
 
-.about-me {
+.know-me {
   a {
-    background-color: #e6e6e6;
+    color: white;
+    background-color: transparent;
   }
 
   & :hover {
