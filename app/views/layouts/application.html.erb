@@ -19,25 +19,33 @@
   	<div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
+          <div class="background">
 
-          <%= video_tag(
-            'sun_movement.mp4',
-            id: 'background',
-            autoplay: true,
-            muted: true,
-            poster: ''
+            <%= video_tag(
+              'sun_movement.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: ''
+              )
+              %>
+
+            <!--<%= image_tag(
+              'macworkdesk.jpg',
+              id: 'background'
             )
-            %>
+            %>-->
 
-          <%= render "shared/application_nav" %>
+            <%= render "shared/application_nav" %>
 
-          <%= yield %>
+            <%= yield %>
 
-          <%= render "shared/application_footer" %>
+            <%= render "shared/application_footer" %>
 
-          <%= alerts %>
-          
-        </div>
+            <%= alerts %>
+          </div>
+        </>
       </div>
     </div>
   </body>
