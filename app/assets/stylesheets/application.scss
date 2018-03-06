@@ -179,12 +179,14 @@ h6, .h6, {
  */
 
  .card {
-  color: black;
+  color: white;
   padding: 15px;
+  background-color: transparent;
+  border-color: white;
  }
 
  .card-block {
-  color: #000;
+  color: white;
   text-align: left;
  }
 .auth-links a {
@@ -219,7 +221,7 @@ h6, .h6, {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('mackworkdesk.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -243,7 +245,6 @@ h6, .h6, {
 .app-card-container {
   color: black;
   text-align: left;
-  background-color: white;
 }
 
 .app-card-container > .card {
@@ -272,4 +273,19 @@ h6, .h6, {
     color: black;
     background-color: white;
   }
+}
+
+.social-links a {
+  padding: 0 5px 0;
+}
+
+.btn-home {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+
+  &:hover {
+      color: black;
+      background-color: white;
+    }
 }
