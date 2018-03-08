@@ -188,7 +188,12 @@ h6, .h6, {
  .card-block {
   color: white;
   text-align: left;
- }
+}
+.card-block:hover {
+  background-color: white;
+  color: black;
+}
+ 
 .auth-links a {
   color: #000000;
 }
@@ -202,7 +207,6 @@ h6, .h6, {
 .login > .card {
   margin: 0 auto;
   width: 22rem;
-
 }
 
 .app-nav span {
