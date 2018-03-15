@@ -279,8 +279,9 @@ h6, .h6, {
   }
 }
 
-.social-links a {
+.social-links a:hover {
   padding: 0 5px 0;
+  color: #bfbfbf;
 }
 
 .btn-home {
