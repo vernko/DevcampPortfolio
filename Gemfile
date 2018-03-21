@@ -45,5 +45,5 @@ gem 'twitter', '~> 6.1'
 gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
-
+gem 'faker', '~> 1.8', '>= 1.8.7'
 ruby "2.4.0"
