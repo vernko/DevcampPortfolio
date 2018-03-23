@@ -12,7 +12,7 @@ class BlogsController < ApplicationController
     else
       @blogs = Blog.published.recent.page(params[:page]).per(5)
     end
-    @page_title = "My portfolio Blog"
+      @page_title = "My portfolio Blog"
   end
 
   # GET /blogs/1
@@ -96,5 +96,4 @@ class BlogsController < ApplicationController
     def set_sidebar_topics
       @side_bar_topics = Topic.with_blogs
     end
- 
 end
