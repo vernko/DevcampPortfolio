@@ -86,7 +86,7 @@ footer p {
     color: white;
   }
   &:hover {
-    color: #ccc;
+    color: #d9d9d9;
   }
 }
 
@@ -97,4 +97,16 @@ footer p {
 
 .portfolio-container {
   padding-top: 30px;
+}
+
+.create-new {
+  color: blue;
+  background-color: white;
+  border-color: blue;
+  margin-bottom: 10px;
+
+  &:hover {
+    color: rgb(126, 121, 121);
+    background-color: #cecccc;
+  }
 }
