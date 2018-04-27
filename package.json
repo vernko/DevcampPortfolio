@@ -1,5 +1,9 @@
 {
   "name": "devcampportfolio",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1"
+  }
 }
